@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1977,14955" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:ct="clr-namespace:CsvHelper.TypeConversion;assembly=CsvHelper" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:si="clr-namespace:System.IO;assembly=mscorlib" xmlns:sma="clr-namespace:System.Management.Automation;assembly=System.Management.Automation" xmlns:snm="clr-namespace:System.Net.Mail;assembly=System" xmlns:sri="clr-namespace:System.Runtime.InteropServices;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uou="clr-namespace:UiPath.OrchestratorClient.Utilities;assembly=UiPath.System.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1977,15152" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:ct="clr-namespace:CsvHelper.TypeConversion;assembly=CsvHelper" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:si="clr-namespace:System.IO;assembly=mscorlib" xmlns:sma="clr-namespace:System.Management.Automation;assembly=System.Management.Automation" xmlns:snm="clr-namespace:System.Net.Mail;assembly=System" xmlns:sri="clr-namespace:System.Runtime.InteropServices;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uou="clr-namespace:UiPath.OrchestratorClient.Utilities;assembly=UiPath.System.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="35">
       <x:String>System.Activities</x:String>
@@ -39,7 +39,7 @@
     </scg:List>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
-    <scg:List x:TypeArguments="AssemblyReference" Capacity="32">
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="31">
       <AssemblyReference>System.Activities</AssemblyReference>
       <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
       <AssemblyReference>mscorlib</AssemblyReference>
@@ -73,7 +73,7 @@
       <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Sequence 1" sap:VirtualizedContainerService.HintSize="1987,14890" sap2010:WorkflowViewState.IdRef="Sequence_6">
+  <Sequence DisplayName="Sequence 1" sap:VirtualizedContainerService.HintSize="1987,15087" sap2010:WorkflowViewState.IdRef="Sequence_6">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:Int32" Default="1" Name="contador" />
       <Variable x:TypeArguments="ui:Browser" Name="navegador" />
@@ -86,20 +86,20 @@
         <x:Boolean x:Key="IsPinned">False</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:OpenBrowser CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" BrowserType="Firefox" DisplayName="Open Browser" sap:VirtualizedContainerService.HintSize="1945,14491" sap2010:WorkflowViewState.IdRef="OpenBrowser_1" UiBrowser="[navegador]" Url="https://sigestcolombia.tessi.co/">
+    <ui:OpenBrowser CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" BrowserType="Firefox" DisplayName="Open Browser" sap:VirtualizedContainerService.HintSize="1945,14688" sap2010:WorkflowViewState.IdRef="OpenBrowser_1" UiBrowser="[navegador]" Url="https://sigestcolombia.tessi.co/">
       <ui:OpenBrowser.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1911,14390" sap2010:WorkflowViewState.IdRef="Sequence_5">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1911,14587" sap2010:WorkflowViewState.IdRef="Sequence_5">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <TryCatch DisplayName="Try Catch TODO" sap:VirtualizedContainerService.HintSize="1869,14298" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+            <TryCatch DisplayName="Try Catch TODO" sap:VirtualizedContainerService.HintSize="1869,14495" sap2010:WorkflowViewState.IdRef="TryCatch_1">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -107,9 +107,11 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
               <TryCatch.Try>
-                <Sequence DisplayName="Sequence INICIO TODO" sap:VirtualizedContainerService.HintSize="1831,13978" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                <Sequence DisplayName="Sequence INICIO TODO" sap:VirtualizedContainerService.HintSize="1831,14175" sap2010:WorkflowViewState.IdRef="Sequence_9">
                   <Sequence.Variables>
                     <Variable x:TypeArguments="x:String" Name="hora" />
+                    <Variable x:TypeArguments="x:String" Name="ruta" />
+                    <Variable x:TypeArguments="x:String" Name="ruta2" />
                   </Sequence.Variables>
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -125,14 +127,30 @@
                       <InArgument x:TypeArguments="x:String">[DateTime.Now.ToString.Replace("/","_").Replace(":","")]</InArgument>
                     </Assign.Value>
                   </Assign>
-                  <ui:CopyFile ContinueOnError="{x:Null}" Destination="[&quot;C:\Users\jparra\OneDrive\RPA\CANCELACION HIPOTECA\&quot;+&quot;Cancelacion Hipoteca&quot;+&quot;  &quot;+hora+&quot;.xlsx&quot;]" DisplayName="Copy File" sap:VirtualizedContainerService.HintSize="1789,157" sap2010:WorkflowViewState.IdRef="CopyFile_1" Overwrite="True" Path="C:\Users\jparra\OneDrive\RPA\CANCELACION HIPOTECA\Cancelacion.xlsx" />
-                  <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Excel Application Scope" sap:VirtualizedContainerService.HintSize="1789,13589" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_1" InstanceCachePeriod="3000" WorkbookPath="[&quot;C:\Users\jparra\OneDrive\RPA\CANCELACION HIPOTECA\&quot;+&quot;Cancelacion Hipoteca&quot;+&quot;  &quot;+hora+&quot;.xlsx&quot;]">
+                  <Assign sap:VirtualizedContainerService.HintSize="1789,60" sap2010:WorkflowViewState.IdRef="Assign_18">
+                    <Assign.To>
+                      <OutArgument x:TypeArguments="x:String">[ruta]</OutArgument>
+                    </Assign.To>
+                    <Assign.Value>
+                      <InArgument x:TypeArguments="x:String">C:\Users\jparra\OneDrive\RPA\CANCELACION HIPOTECA\Cancelacion.xlsx</InArgument>
+                    </Assign.Value>
+                  </Assign>
+                  <Assign sap:VirtualizedContainerService.HintSize="1789,60" sap2010:WorkflowViewState.IdRef="Assign_19">
+                    <Assign.To>
+                      <OutArgument x:TypeArguments="x:String">[ruta2]</OutArgument>
+                    </Assign.To>
+                    <Assign.Value>
+                      <InArgument x:TypeArguments="x:String" xml:space="preserve">["C:\Users\jparra\OneDrive\RPA\CANCELACION HIPOTECA\"+"Cancelacion Hipoteca"+"  "+hora+".xlsx"]</InArgument>
+                    </Assign.Value>
+                  </Assign>
+                  <ui:CopyFile ContinueOnError="{x:Null}" Destination="[ruta2]" DisplayName="Copy File" sap:VirtualizedContainerService.HintSize="1789,157" sap2010:WorkflowViewState.IdRef="CopyFile_1" Overwrite="True" Path="[ruta]" />
+                  <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Excel Application Scope" sap:VirtualizedContainerService.HintSize="1789,13586" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_1" InstanceCachePeriod="3000" WorkbookPath="[ruta2]">
                     <ui:ExcelApplicationScope.Body>
                       <ActivityAction x:TypeArguments="ui:WorkbookApplication">
                         <ActivityAction.Argument>
                           <DelegateInArgument x:TypeArguments="ui:WorkbookApplication" Name="ExcelWorkbookScope" />
                         </ActivityAction.Argument>
-                        <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1755,13480" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                        <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1755,13477" sap2010:WorkflowViewState.IdRef="Sequence_4">
                           <Sequence.Variables>
                             <Variable x:TypeArguments="x:String" Name="usuario" />
                             <Variable x:TypeArguments="x:String" Name="password" />
@@ -290,13 +308,13 @@
                               </ui:ForEach.Body>
                             </ui:ForEach>
                           </Sequence>
-                          <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[dtInformacion]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="1713,13282" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+                          <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[dtInformacion]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="1713,13279" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
                             <ui:ForEachRow.Body>
                               <ActivityAction x:TypeArguments="sd:DataRow">
                                 <ActivityAction.Argument>
                                   <DelegateInArgument x:TypeArguments="sd:DataRow" Name="dato" />
                                 </ActivityAction.Argument>
-                                <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="1679,13163" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                                <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="1679,13160" sap2010:WorkflowViewState.IdRef="Sequence_3">
                                   <Sequence.Variables>
                                     <Variable x:TypeArguments="ui:GenericValue" Name="radicadoBizagi" />
                                     <Variable x:TypeArguments="x:String" Name="ciudad" />
@@ -321,7 +339,7 @@
                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
-                                  <TryCatch DisplayName="Try Catch FOR EACH" sap:VirtualizedContainerService.HintSize="1637,13071" sap2010:WorkflowViewState.IdRef="TryCatch_2">
+                                  <TryCatch DisplayName="Try Catch FOR EACH" sap:VirtualizedContainerService.HintSize="1637,13068" sap2010:WorkflowViewState.IdRef="TryCatch_2">
                                     <sap:WorkflowViewStateService.ViewState>
                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -329,14 +347,14 @@
                                       </scg:Dictionary>
                                     </sap:WorkflowViewStateService.ViewState>
                                     <TryCatch.Try>
-                                      <Sequence DisplayName="Sequence Programa" sap:VirtualizedContainerService.HintSize="1599,12498" sap2010:WorkflowViewState.IdRef="Sequence_17">
+                                      <Sequence DisplayName="Sequence Programa" sap:VirtualizedContainerService.HintSize="1599,12495" sap2010:WorkflowViewState.IdRef="Sequence_17">
                                         <sap:WorkflowViewStateService.ViewState>
                                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                             <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                           </scg:Dictionary>
                                         </sap:WorkflowViewStateService.ViewState>
-                                        <Sequence DisplayName="Sequence Lectura Variables" sap:VirtualizedContainerService.HintSize="1557,4368" sap2010:WorkflowViewState.IdRef="Sequence_18">
+                                        <Sequence DisplayName="Sequence Lectura Variables" sap:VirtualizedContainerService.HintSize="1557,4365" sap2010:WorkflowViewState.IdRef="Sequence_18">
                                           <Sequence.Variables>
                                             <Variable x:TypeArguments="x:String" Name="ciudad3" />
                                           </Sequence.Variables>
@@ -460,7 +478,7 @@
                                               </Sequence>
                                             </If.Else>
                                           </If>
-                                          <ui:GetRowItem Column="{x:Null}" ColumnName="{x:Null}" ColumnIndex="3" DisplayName="Get Row Item" sap:VirtualizedContainerService.HintSize="918,188" sap2010:WorkflowViewState.IdRef="GetRowItem_4" Row="[dato]">
+                                          <ui:GetRowItem Column="{x:Null}" ColumnName="{x:Null}" ColumnIndex="3" DisplayName="Get Row Item" sap:VirtualizedContainerService.HintSize="918,185" sap2010:WorkflowViewState.IdRef="GetRowItem_4" Row="[dato]">
                                             <ui:GetRowItem.Value>
                                               <OutArgument x:TypeArguments="ui:GenericValue">[numeroSobre]</OutArgument>
                                             </ui:GetRowItem.Value>
