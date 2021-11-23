@@ -127,7 +127,7 @@
                       <x:Boolean x:Key="IsPinned">False</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <Assign sap:VirtualizedContainerService.HintSize="1613,60" sap2010:WorkflowViewState.IdRef="Assign_10">
+                  <Assign DisplayName="AssignARRR" sap:VirtualizedContainerService.HintSize="1613,60" sap2010:WorkflowViewState.IdRef="Assign_10">
                     <Assign.To>
                       <OutArgument x:TypeArguments="x:String">[hora]</OutArgument>
                     </Assign.To>
@@ -375,7 +375,7 @@
                                             <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                           </scg:Dictionary>
                                         </sap:WorkflowViewStateService.ViewState>
-                                        <Sequence DisplayName="Sequence Lectura Variables" sap:VirtualizedContainerService.HintSize="960,4815" sap2010:WorkflowViewState.IdRef="Sequence_18">
+                                        <Sequence DisplayName="Sequence Lectura Variables" sap:VirtualizedContainerService.HintSize="1381,66" sap2010:WorkflowViewState.IdRef="Sequence_18">
                                           <Sequence.Variables>
                                             <Variable x:TypeArguments="x:String" Name="ciudad3" />
                                           </Sequence.Variables>
